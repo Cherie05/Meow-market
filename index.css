@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar*/
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 10px;
+}
+#navbar{
+    background-color:transparent;
+    background: url(hero-img.jpg) center center/cover no-repeat ;
+    height: 700px;
+}
+
+
+#navbar h1 a{
+    float: right;
+    color: white;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: left;
+    list-style: none;
+}
+#navbar li {
+    float: left;
+    padding: 23px;
+}
+a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+}
+#navbar li a:hover{
+    color: #FE6244;
+}
+#navbar li .current {
+    color: #FE6244;
+}
+#navbar2 li .current{
+    color: #FE6244;
+}
+
+/*hero*/
+#hero {
+    padding-top: 100px;
+}
+#hero h1{
+    font-size: 60px;
+    font-weight: normal;
+    text-align: left;
+}
+#hero p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+#hero span{
+    color: #FE6244;
+}
+#hero button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FE6244;
+    margin-top: 30px;
+}
+#hero button:hover{
+    background-color: #DDDDDD;
+}
+#hero button:hover a{
+    color: #FE6244;
+}
+#hero button a{
+    font-size: 16px;
+    font-weight: bold;
+}
+/*catbreeds*/
+
+#cat-breeds{
+    padding-top: 50px;
+    height: 700px;
+    background-color: #E8E2E2;
+}
+.cat-breeds-content h2 {
+    color: #333;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+.cat-breeds-content h2 span{
+    color: #FE6244;
+    letter-spacing: 2px;
+}
+.box{
+    float: left;
+    width: 30.3%;
+    padding:50px;
+    text-align: center;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 20px;
+    margin: 1rem;
+    box-shadow: 0px 0px 5px 0px #000000;
+
+}
+.box img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.box h3 {
+    color: #333;
+    padding: 5px 0;
+}
+.box  p{
+    color: #333;
+    padding: 5px 0;
+} 
+.box button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FE6244;
+    margin-top: 10px;
+}
+.box button:hover{
+    background-color: #444;
+}
+.box button:hover a{
+    color: #FE6244;
+}
+.box button a{
+    font-size: 16px;
+    font-weight: bold;
+}
+/*cat products*/
+
+#cat-products{
+    padding-top: 50px;
+    height: 700px;
+    background-color: #333;
+}
+.cat-products-content h2 {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+.cat-products-content h2 span{
+    color: #FE6244;
+    letter-spacing: 2px;
+}
+/*footer*/
+#main-footer{
+    height: 100px;
+    padding-top: 50px;
+}
+#main-footer p{
+    color: #333;
+    margin: auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+/* contact*/
+#navbar2{
+    background-color:transparent;
+    background: url(contact-img.jpg) center center/cover no-repeat ;
+    height: 800px;
+}
+
+#navbar2 h1 a{
+    float: right;
+    color: white;
+    padding-top: 20px;
+}
+#navbar2 ul{
+    float: left;
+    list-style: none;
+}
+#navbar2 li {
+    float: left;
+    padding: 23px;
+}
+a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+}
+#navbar2 li a:hover{
+    color: #FE6244;
+} 
+
+.contact-box{
+    padding-top: 50px;
+    height: 550px;
+    background-color:transparent;
+}
+.contact-box-content h2 {
+    color: #333;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+.contact-box-content h2 span{
+    color: #FE6244;
+    letter-spacing: 1px;
+}
+.contact-box{
+    width: 50%;
+    padding:50px;
+    text-align: center;
+    background-color:transparent;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin:auto;
+
+}
+.contact-box{
+    padding:20px 0;
+}
+.contact-box .form-group{
+    margin-bottom: 20px;
+}
+.contact-box label {
+    display: block;
+    margin-bottom: 12px;
+}
+.contact-box input,#Contact-form textarea{
+    width: 70%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #ddd;
+    font-size: 15px;
+}
+.contact-box textarea{
+    height: 200px;
+    background-color: transparent;
+    width: 70%;
+    border: 1px #ddd solid;
+    border-radius: 5px;
+    color: #ddd;
+    font-size: 15px;
+}
+.contact-box input:focus,.contact-box textarea:focus{
+    outline: none;
+    border-color: #FE6244;
+    color: #ddd;
+    font-size: 15px;
+}
+
+.contact-box button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FE6244;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ddd;
+}
+.contact-box button:hover{
+    background-color: #ddd;
+    color: #FE6244;
+}
+.contact-box button:hover a{
+    color: #FE6244;
+}
+/*about*/
+#about img{
+    width: 30%;
+    padding-top: 100px;
+    float: left;
+    border: none;
+    border-radius: 10px;
+}
+#about h1{
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+#about h3{
+    padding-top: 100px;
+    padding-left: 360px;
+    font-size: 30px;
+}
+#about h3 span{
+    color: #FE6244;
+}
+#about p{
+    text-align: left;
+    padding-left: 360px;
+    font-size: 22px;
+}
+#about button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FE6244;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ddd;
+    margin-left: 35px;
+}
+#about button:hover a{
+    color: #FE6244;
+}
+#about button:hover{
+    background-color: #ddd;
+}
+.box p i{
+    color: #FE6244;
+}
+/*testimonials*/
+#testimonials{
+    padding-top: 50px;
+    height: 800px;
+    background-color: #fff;
+}
+.testimonials-content h2 {
+    color: #333;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+.testimonials-content h2 span{
+    color: #FE6244;
+    letter-spacing: 2px;
+}
+.testimonials-content .box p{
+    text-align: center;
+    margin: auto;
+}
+/* login*/
+#login-box{
+    padding-top: 80px;
+    height: 350px;
+    background-color:transparent;
+}
+.login-box-content h2 {
+    color: #333;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+.login-box-content h2 span{
+    color: #FE6244;
+    letter-spacing: 1px;
+}
+.login-box{
+    width: 50%;
+    padding:50px;
+    text-align: center;
+    background-color:transparent;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin:auto;
+
+}
+.login-box{
+    padding:20px 0;
+}
+.login-box .form-group{
+    margin-bottom: 20px;
+}
+.login-box label {
+    display: block;
+    margin-bottom: 12px;
+}
+.login-box input,#Contact-form textarea{
+    width: 70%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #ddd;
+    font-size: 15px;
+}
+.login-box textarea{
+    height: 200px;
+    background-color: transparent;
+    width: 70%;
+    border: 1px #ddd solid;
+    border-radius: 5px;
+    color: #ddd;
+    font-size: 15px;
+}
+.login-box input:focus,.login-box textarea:focus{
+    outline: none;
+    border-color: #FE6244;
+    color: #ddd;
+    font-size: 15px;
+}
+.login-btn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.login-box button{
+    width:32%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FE6244;
+    margin: 0.5rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ddd;
+}
+.login-box button:hover{
+    background-color: #ddd;
+    color: #FE6244;
+    cursor: pointer;
+}
+.login-box button:hover a{
+    color: #FE6244;
+}
+.form-group a{
+    border: solid 1px #fff;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.form-group a:hover{
+    background-color: #FE6244;
+    color: #ddd;
+    cursor: pointer;
+}
+@media (max-width:1028px) {
+    .container{
+        margin: auto;
+        max-width: 1100px;
+        overflow: auto;
+        padding: 0 10px;
+    }
+    #navbar h1 {
+        color: white;
+        padding-top: 20px;
+        padding-left: 0;
+        margin: auto;
+        justify-content: center;
+    }
+    /*hero*/
+    #hero {
+        padding-top: 10px;
+    }
+    #hero h1{
+        font-size: 40px;
+        font-weight: normal;
+        text-align: left;
+    }
+    #hero p{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    #hero span{
+        color: #FE6244;
+    }
+    #hero button{
+        width: 120px;
+        height: 50px;
+        border: none;
+        border-radius: 4px;
+        background-color: #FE6244;
+        margin-top: 30px;
+    }
+    #hero button:hover{
+        background-color: #DDDDDD;
+    }
+    #hero button:hover a{
+        color: #FE6244;
+    }
+    #hero button a{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /*cat*/
+
+    #cat-breeds{
+        padding-top: 50px;
+        height: 1000px;
+        background-color: #E8E2E2;
+    }
+    .cat-breeds-content h2 {
+        color: #333;
+        margin: auto;
+        text-align: center;
+        padding: 40px 0;
+        font-size: 25px;
+    }
+    .box{
+        float: left;
+        width: 40%;
+        padding:50px;
+        text-align: center;
+        background-color: #F5F5F5;
+        border: none;
+        border-radius: 20px;
+        margin: 1rem;
+        box-shadow: 0px 0px 5px 0px #000000;
+    
+    }
+    .box button{
+        width: 80px;
+        height: 40px;
+        border: none;
+        border-radius: 4px;
+        background-color: #FE6244;
+        margin-top: 10px;
+    }
+    .box button a{
+        font-size: 13px;
+        font-weight: bold;
+    }
+/*cat products*/
+
+    #cat-products{
+        padding-top: 50px;
+        height: 1000px;
+        background-color: #333;
+    }
+/*about*/
+
+    #about img{
+        width: 40%;
+        padding-top: 80px;
+        float: left;
+        border: none;
+        border-radius: 10px;
+    }
+    #about h3{
+        padding-top: 80px;
+        padding-left: 200px;
+        font-size: 25px;
+    }
+    #about p{
+        text-align: left;
+        padding-left: 200px;
+        font-size: 15px;
+    }
+    #about button{
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 4px;
+        background-color: #FE6244;
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ddd;
+        margin-left: 200px;
+    }
+    .box p i{
+        color: #FE6244;
+        font-size: 20px;
+    }
+          
+}
